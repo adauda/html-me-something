@@ -1,74 +1,142 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- The new doctype -->
+
 <html>
+	<head>
 
-<head>
-	<title>Simply Me</title>
-</head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-<body>
-	<header>
-		<nav>
-					<a href="#me">ME</a>
-					<a href="#me">WHO</a>
-					<a href="#what">WHAT</a>
-					<a href="#where">WHERE</a>
-		</nav>
-	</header>
+		<title> Simple Me &amp; Quadri Dauda | Launch Code </title>
 
-	<main>
-		<article>
-			<section>
-				<a name="me"></a>
-				<h2>Who Am I?</h2>
-				<figure>
-					<img src="img/me.jpg"  alt="Me" width="350" height="350">
-					<figcaption>Quadri Dauda, he loves to smile.</figcaption>
-				</figure>
-			</section>
+		<link rel="stylesheet" type="text/css" href="styles.css" />
 
-			<section>
-				<a name="what"></a>
-				<h2>What Am I?</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-			</section>
+		 <!-- Internet Explorer HTML5 enabling code: -->
+        
+        <!--[if IE]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        
+        <style type="text/css">
+        .clear {
+          zoom: 1;
+          display: block;
+        }
+        </style>
 
-			<section>
-				<a name="where"></a>
-				<h2>Where To Find Me?</h2>
+        
+        <![endif]-->
+    </head>
 
-					<section>
-					<h3>I like going to the Lake and Park</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-					<figure>
-						<img src="img/crevecoeur.jpg" class="img-responsive margin" style="width:100%" alt="Image">
-						<figcaption>Creve Coeur Lake in Saint Louis, MO</figcaption>
-					</figure>
-      				</section>
+    <body>
 
-      				<section>
-      				<h3>I spend most time in School</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-					<figure>
-						<img src="img/umsl.jpg" class="img-responsive margin" style="width:100%" alt="Image">
-						<figcaption>University of Missouri Saint Louis</figcaption>
-					</figure>
-      				</section>
+    	<section id="page"> <!-- Defining the #page section with the section tag -->
 
-      				<section>
-      				<h3>Gym is me second home</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-					<figure>
-						<img src="img/gym.jpg" class="img-responsive margin" style="width:100%" alt="Image">
-						<figcaption>Club Fitness</figcaption>
-					</figure>
-      				</section>
-      		</section>
-      	</article>
-    </main>
-      	<footer>
-      	<p>&copy; 2016 Quadri Dauda</p>
-      	</footer>
-</body>
+    	<header> <!-- Defining the header section of the page with the appropriate tag -->
+
+    		<hgroup>
+    			<h1><a href=""> </a></h1>
+    			
+    			<h3> Quadri M. Dauda</h3>
+    		</hgroup>
+
+    		<nav class="clear"> <!-- The nav link semantically marks your main site navigation -->
+    			<ul>
+    				<li><a href="#article1">who am i?</a></li>
+    				<li><a href="#article2">What am i?</a></li>
+    				<li><a href="#article3">where to find me?</a></li>
+    			</ul>
+    		</nav>
+    	</header>
+
+    	<section id="articles"> <!-- A new section with the articles -->
+
+    		<!-- Article 1 start -->
+
+    		<div class="line"></div>	<!-- Dividing line -->
+
+    		<article id="article1"> <!-- The new article tag. The id is supplied so it can be scrolled into view. -->
+
+    			<h2>Who Am I?</h2>
+
+    			<div class="line"></div>
+
+    			<div class="articleBody clear">
+
+    				<figure> <!-- The figure tag marks data (usually an image) that is part of the article -->
+    					<a href=" "> <img src="img/birds1.jpg" width="620" height="340" /></a>
+    				</figure>
+
+    				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus quam quis nibh fringilla sit amet consectetur lectus malesuada. Sed nec libero erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus quam quis nibh fringilla sit amet consectetur lectus malesuada. Sed nec libero erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi nisi, rhoncus ut vestibulum ac, sollicitudin quis lorem. Duis felis dui, vulputate nec adipiscing nec, interdum vel tortor. Sed gravida, erat nec rutrum tincidunt, metus mauris imperdiet nunc, et elementum tortor nunc at eros. Donec malesuada congue molestie. Suspendisse potenti. Vestibulum cursus congue sem et feugiat. Morbi quis elit odio. </p>
+                </div>
+            </article>
+
+            <!-- Article 1 end -->
+
+            <!-- Article 2 start -->
+
+            <div class="line"></div>
+
+            <article id="article2">
+
+            	<h2>What Am I?</h2>
+
+            	<div class="line"></div>
+
+            	<div class="articleBody clear">
+            		<figure>
+            			<a href=" "><img src="img/birds3.jpg" width="620" height="340" /></a>
+            		</figure>
+
+            		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus quam quis nibh fringilla sit amet consectetur lectus malesuada. Sed nec libero erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus quam quis nibh fringilla sit amet consectetur lectus malesuada. Sed nec libero erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi nisi, rhoncus ut vestibulum ac, sollicitudin quis lorem. Duis felis dui, vulputate nec adipiscing nec, interdum vel tortor. Sed gravida, erat nec rutrum tincidunt, metus mauris imperdiet nunc, et elementum tortor nunc at eros. Donec malesuada congue molestie. Suspendisse potenti. Vestibulum cursus congue sem et feugiat. Morbi quis elit odio. </p>
+                </div>
+            </article>
+
+            <!-- Article 2 end -->
+
+            <!-- Article 3 start -->
+
+            <div class="line"></div>
+
+            <article id="article3">
+
+            	<h2>Where To Find Me?</h2>
+
+            	<div class="line"></div>
+
+            	<div class="articleBody clear">
+            		<figure>
+            			<a href=" "><img src="img/birds2.jpg" width="620" height="340" /></a>
+            		</figure>
+
+            		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus quam quis nibh fringilla sit amet consectetur lectus malesuada. Sed nec libero erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi nisi, rhoncus ut vestibulum ac, sollicitudin quis lorem.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus quam quis nibh fringilla sit amet consectetur lectus malesuada. Sed nec libero erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi nisi, rhoncus ut vestibulum ac, sollicitudin quis lorem. Duis felis dui, vulputate nec adipiscing nec, interdum vel tortor. Sed gravida, erat nec rutrum tincidunt, metus mauris imperdiet nunc, et elementum tortor nunc at eros. Donec malesuada congue molestie. Suspendisse potenti. Vestibulum cursus congue sem et feugiat. Morbi quis elit odio. </p>
+                </div>
+            </article>
+
+            <!-- Article 3 end -->
+        </section>
+
+    <footer> <!-- Marking the footer section -->
+
+    	<div class="line"></div>
+
+    	<p>LauchCode (LC101)</p>
+    	<p> &copy; 2016 - Quadri Dauda</p> <!-- Change the copyright notice -->
+
+    	<a href="#" class="up">Go UP</a>
+    	<a href=" " class="by">Template by Tutorialzine</a>
+
+    </footer>
+
+    </section> <!-- Closing the #page section -->
+
+
+ 	</body>
+
 </html>
+
+
+
+
+
+	

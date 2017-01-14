@@ -9,6 +9,10 @@ header,footer,article,section,hgroup,nav,figure{
 	display:block;
 }
 
+main{
+	background-color: #ddd;
+}
+
 body{
 	/* Setting the default text color, size, page bacground and a font stack: */
 	font-size: 0.825em;
